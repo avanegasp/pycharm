@@ -1,4 +1,7 @@
-print("Me llamo \"Federico\"")
-print("Esta es una línea\n y Esta es otra línea")
-print("Tu nombres es " + input("Dime tu nombre: ") + " " + input("Dime tu apellido: "))
+all_name = "Este es mi nombre, Angie"
+name = "Angie"
 
+result = all_name.index(name)
+
+
+print(f"Este es el resultado: {result}")
