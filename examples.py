@@ -1,6 +1,5 @@
-respuesta = "s"
+numero = 10
 
-while respuesta == 's':
-    respuesta = input('Quieres seguir? (s/n)')
-else:
-    print('gracias')
+while numero > 0:
+    print("hola", numero)
+    numero = numero - 1
