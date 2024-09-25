@@ -1,6 +1,7 @@
-valores = [1, 2, 3, 4, 5, 6, 9.5]
-valores_cuadrado = 0
+def word(w):
+    return w[::-1]
+print(word("hola"))
 
-valores_cuadrado = [valor*valor for valor in valores]
-print(valores_cuadrado)
-
+numeros = [1,2331,5,7,4,2,3,6,68,78]
+numeros[::-1]
+print(numeros)
